@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+
+/* body */
+body{
+    margin: 0px 0px;
+    font-family: cursive;
+}
+
+/* home */
+.home{
+   
+}
+
+.home h1{
+    font-size: 11rem
+}
+
+
+
+/* contact */
+.contact{
+    background-color: black;
+    padding: 90px 0px;
+}
+
+.section-title-contact{
+    color: #fff;
+}
+
+.section-desc-contact{
+    color: #464646;
+}
+
+.email{
+    -webkit-transition: color 400ms ease-out,border 400ms ease-out;
+    transition: color 400ms ease-out,border 400ms ease-out;
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    position: relative;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.email:hover{
+    color: bisque;
+    text-decoration: none;
+    border-bottom: 1px solid bisque;
+    
+}
+
+.contact-email{
+    border-bottom: 1px solid beige ;
+}
+
+.contact-hello{
+    padding: 30px 10px;
+}
+
+.email-input{
+    background-color: initial;
+    border: none;
+    padding: 10px 0px;
+    height: 40px;
+    width: 60%;
+    color: white;
+}
+.email-input:hover{
+    border: none;
+}
+
+.email-submit{
+    float: right;
+    background: transparent url("/img/arrow-submit.png") right top no-repeat;
+    
+}
+
+/* footer */
+
+
+
+
+footer{
+    background-color: bisque;
+    padding: 100px 0px;
+}
+
+
+.footer-list{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-list li{
+    display: inline-block;
+    margin: 0px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+}
+
+.footer-li{
+    -webkit-transition: grey 400ms ease-out,border 400ms ease-out;
+    transition: grey 400ms ease-out,border 400ms ease-out;
+    border-bottom: 1px solid transparent;
+		
+}
+
+.footer-list li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.footer-list li a:hover{
+     color: grey;
+     text-decoration: none;
+    border-bottom: 1px solid grey;
+     font-weight: bolder;
+ } 
+
+
+@keyframes lineOut{
+    0%{-webkit-transform:translateX(0%);
+        transform:translateX(0%);
+    }
+
+    50%{-webkit-transform:translateX(100.5%);
+            transform:translateX(100.5%);
+    }
+    100%{-webkit-transform:translateX(0%);
+        transform:translateX(0%);
+    }
+}
+
+.copyright{
+   text-align: right;
+ 
+}
