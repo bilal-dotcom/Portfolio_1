@@ -6,37 +6,114 @@
     <title>PortFolio 1</title>
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
-    
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- bootstrap css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <!-- body -->
 <body style="font-family: cursive;">
 <!-- header -->
-<header>
-
-</header>
+<!-- <header>
+     -->
+<div class="header" id="header">
+     <h1><a href="#">DOTCOM</h1>
+    <div class="header-menu" >
+        <ul class="header-ul">
+            <li class="header-list">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="header-list">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- </header> -->
 <!-- end header -->
-
+<!-- empty -->
+ <div class="empty">
+ 
+ </div>
 <!-- home -->
-<!-- <div class="home" >
+<div class="home" >
 <div class="container">
-    <div class="row">
+    <div class="row full-screen">
         <div class="title">
-            <h1 class="home-title">
-                FIKARA
-                <br>BILAL
-            </h1>
-        </div>
-        <div class="img">
-            
+            <ul class="words">
+                <li class="Words-line">
+                    <p>&nbsp;</p>
+                    <p>Greetings!</p>
+                </li>
+                <li class="Words-line">
+                    <p>Greetings!</p>
+                    <p>My name is Bilal</p>
+                </li>
+                <li class="Words-line">
+                    <p>My name is Bilal</p>
+                    <p>I am a  </p>
+                </li>
+                <li class="Words-line">
+                    <p>I am a </p>
+                    <p>Full Stack programmer</p>
+                </li>
+                <li class="Words-line">
+                    <p>Full Stack programmer</p>
+                    <p>living in Montreal</p>
+                </li>
+                <li class="Words-line">
+                    <p>living in Montreal</p>
+                    <p>I love coding 😄</p>
+                </li>
+                <li class="Words-line">
+                    <p>I love coding 😄</p>
+                    <p>&nbsp;</p>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
-</div> -->
+</div>
+
 <!-- end home -->
+
+<!-- skills -->
+
+<div class="skills" id="skills">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <div class="item" data-aos="fade-up">
+                <span class="box__blurb">I'm a Box</span>
+                <span class="rect__blurb">I'm a Rectangle</span>
+            </div>
+            <div class="item" data-aos="fade-down">2</div>
+            <div class="item" data-aos="flip-up">8</div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="item" data-aos="flip-down">9</div>
+            <div class="item" data-aos="flip-right">10</div>
+            <div class="item" data-aos="flip-left">11</div>
+        </div>
+    
+    </div>
+</div>
+    
+    <!-- <div class="item" data-aos="fade-right">3</div>
+    <div class="item" data-aos="fade-left">4</div>
+
+    <div class="item" data-aos="zoom-in">5</div>
+    <div class="item" data-aos="zoom-out">6</div>
+
+    <div class="item" data-aos="slide-up">7</div> -->
+
+</div>
+<!-- end skills -->
+
 <!-- contact -->
-<div class="contact">
+<div class="contact" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -72,20 +149,20 @@
 <section>
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6 ">
+        <div class="">
             <div class="social-media">
                 <ul class="footer-list">
                     <span class="l-01 active">
-                        <li><a href="" class="footer-li">GitHub</a></li>
+                        <li><a href="https://github.com/bilal-dotcom" class="footer-li">GitHub</a></li>
                     </span>  
                     <span class="l-01 active">
-                        <li><a href="" class="footer-li">Linkedin</a></li>
+                        <li><a href="https://www.linkedin.com/in/bilal-fikara-4996201b7/" class="footer-li">Linkedin</a></li>
                     </span>  
                     <span class="l-01 active">
-                       <li><a href="" class="footer-li">Twitter</a></li>
+                       <li><a href="https://twitter.com/bill_fka" class="footer-li">Twitter</a></li>
                     </span>  
                     <span class="l-01 active">
-                        <li><a href="" class="footer-li">Instagram</a></li>
+                        <li><a href="https://www.instagram.com/bill_fka/" class="footer-li">Instagram</a></li>
                     </span>  
                 </ul>
             </div>
@@ -94,7 +171,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-12" >
-                     <p>Copyright by FIKARA BILAL. All rights reserved</p>
+                     <p>Copyright by <a href="#">FIKARA BILAL</a>. All rights reserved</p>
                     </div>
                 </div>
             </div>
@@ -104,6 +181,12 @@
 </section>
 </footer>
 <!-- end footer -->
+<!-- Javascript -->
+<script src="js/anime.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 <!-- end body -->
 </html>
