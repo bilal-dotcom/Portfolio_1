@@ -120,6 +120,7 @@ p{
 .skills{
     padding: 50px 0px;
     background-color: #cfdac8;
+    display: ;
 }
 
 *{
@@ -127,21 +128,32 @@ p{
 }
 
 
-.item {
-    width: 200px;
-    height: 200px;
+/* .item {
+    width: 210px;
+    height: 210px;
     margin: 50px auto;
-    padding-top: 75px;
-    background: #ccc;
+    padding: 50px 0px;
+    background: #cae4db;
     text-align: center;
-    color: #FFF;
+    color: black;
     font-size: 3em;
-    
+    cursor: pointer;
+
+    transition-delay: 1s;
+
+} */
+
+/* .item:hover{
+    width: 600px;
+   
+} */
+
+.skills-icon{
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px;
 }
 
-.skills span{
-    font-size: smaller;
-}
 
 /* empty */
 .panel.half {
